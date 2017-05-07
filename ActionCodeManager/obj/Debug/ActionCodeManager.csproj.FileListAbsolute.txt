@@ -1,0 +1,9 @@
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\ActionCodeManager\bin\Debug\ActionCodeManager.exe.config
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\ActionCodeManager\bin\Debug\ActionCodeManager.exe
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\ActionCodeManager\bin\Debug\ActionCodeManager.pdb
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\ActionCodeManager\obj\Debug\ActionCodeManager.csprojResolveAssemblyReference.cache
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\ActionCodeManager\obj\Debug\ActionCodeManager.Form1.resources
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\ActionCodeManager\obj\Debug\ActionCodeManager.Properties.Resources.resources
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\ActionCodeManager\obj\Debug\ActionCodeManager.csproj.GenerateResource.Cache
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\ActionCodeManager\obj\Debug\ActionCodeManager.exe
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\ActionCodeManager\obj\Debug\ActionCodeManager.pdb

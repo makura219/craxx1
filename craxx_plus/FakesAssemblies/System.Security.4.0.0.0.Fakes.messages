@@ -1,0 +1,62 @@
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.CryptographicAttributeObject のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.CryptographicAttributeObjectCollection のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.CryptographicAttributeObjectEnumerator のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.DataProtectionScope のスタブを生成できません: 型は値型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.MemoryProtectionScope のスタブを生成できません: 型は値型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.ProtectedData のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.ProtectedMemory のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.DpapiDataProtector のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.EnvelopedCms のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.CmsRecipient のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.CmsRecipientCollection のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.CmsRecipientEnumerator のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.CmsSigner のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.Pkcs9SigningTime のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.Pkcs9DocumentName のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.Pkcs9DocumentDescription のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.Pkcs9ContentType のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.Pkcs9MessageDigest のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.RecipientInfoType のスタブを生成できません: 型は値型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.RecipientInfo のスタブを生成できません: 型にファミリで表示できるコントラクターがありません。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.KeyTransRecipientInfo のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.KeyAgreeRecipientInfo のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.RecipientInfoCollection のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.RecipientInfoEnumerator のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.KeyAgreeKeyChoice のスタブを生成できません: 型は値型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.SubjectIdentifierType のスタブを生成できません: 型は値型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.SubjectIdentifier のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.SubjectIdentifierOrKeyType のスタブを生成できません: 型は値型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.PublicKeyInfo のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.SubjectIdentifierOrKey のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.AlgorithmIdentifier のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.ContentInfo のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.SignedCms のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.SignerInfo のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.SignerInfoCollection のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.SignerInfoEnumerator のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.X509Certificates.X509SelectionFlag のスタブを生成できません: 型は値型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.X509Certificates.X509Certificate2UI のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Xml.CipherData のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Xml.EncryptedData のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Xml.EncryptedKey のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Xml.ReferenceList のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Xml.CipherReference のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Xml.DataReference のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Xml.KeyReference のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Xml.EncryptionProperty のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Xml.EncryptionPropertyCollection のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Xml.X509IssuerSerial のスタブを生成できません: 型は値型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Permissions.DataProtectionPermission のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Permissions.DataProtectionPermissionAttribute のスタブを生成できません: 型はシールされています。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Permissions.DataProtectionPermissionFlags のスタブを生成できません: 型は値型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : <PrivateImplementationDetails>{C879BD92-627A-4AF0-81B6-11F85BAD326D} のスタブを生成できません: 型は内部の制限によりサポートされていません。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.DataProtectionScope の shim を生成できません: 型は列挙型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.MemoryProtectionScope の shim を生成できません: 型は列挙型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.RecipientInfoType の shim を生成できません: 型は列挙型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.KeyAgreeKeyChoice の shim を生成できません: 型は列挙型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.SubjectIdentifierType の shim を生成できません: 型は列挙型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Pkcs.SubjectIdentifierOrKeyType の shim を生成できません: 型は列挙型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.X509Certificates.X509SelectionFlag の shim を生成できません: 型は列挙型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Cryptography.Xml.IRelDecryptor の shim を生成できません: 型はインターフェイスです。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : System.Security.Permissions.DataProtectionPermissionFlags の shim を生成できません: 型は列挙型です。
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\Fakes\System.Security.fakes : warning : <PrivateImplementationDetails>{C879BD92-627A-4AF0-81B6-11F85BAD326D} の shim を生成できません: 型は内部の制限によりサポートされていません。

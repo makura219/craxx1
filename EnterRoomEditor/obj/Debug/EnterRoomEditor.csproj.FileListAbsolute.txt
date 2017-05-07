@@ -1,0 +1,9 @@
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\EnterRoomEditor\bin\Debug\EnterRoomEditor.exe.config
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\EnterRoomEditor\bin\Debug\EnterRoomEditor.exe
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\EnterRoomEditor\bin\Debug\EnterRoomEditor.pdb
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\EnterRoomEditor\obj\Debug\EnterRoomEditor.csprojResolveAssemblyReference.cache
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\EnterRoomEditor\obj\Debug\EnterRoomEditor.Form1.resources
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\EnterRoomEditor\obj\Debug\EnterRoomEditor.Properties.Resources.resources
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\EnterRoomEditor\obj\Debug\EnterRoomEditor.csproj.GenerateResource.Cache
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\EnterRoomEditor\obj\Debug\EnterRoomEditor.exe
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\EnterRoomEditor\obj\Debug\EnterRoomEditor.pdb

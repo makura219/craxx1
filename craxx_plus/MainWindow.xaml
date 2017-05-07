@@ -1,0 +1,183 @@
+﻿<Window x:Class="craxx_plus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:craxx_plus"
+        mc:Ignorable="d"
+        Title="Artemis" Height="479" Width="880" WindowStyle="None" Background="Red" AllowsTransparency="True" Foreground="#FF2C2C2C" ResizeMode="NoResize">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <TextBlock x:Key="pointer" Cursor="pointer_black.cur"/>
+            <Style x:Key="placeHolder" TargetType="{x:Type TextBox}" BasedOn="{StaticResource {x:Type TextBox}}">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type TextBox}">
+                            <Grid>
+                                <TextBox Text="{Binding Path=Text,
+                                                RelativeSource={RelativeSource TemplatedParent}, 
+                                                Mode=TwoWay,
+                                                UpdateSourceTrigger=PropertyChanged}"
+                                 x:Name="textSource" 
+                                 Background="Transparent" 
+                                 Panel.ZIndex="2" />
+                                <TextBox Text="{TemplateBinding Tag}" Background="{TemplateBinding Background}" Panel.ZIndex="1">
+                                    <TextBox.Style>
+                                        <Style TargetType="{x:Type TextBox}">
+                                            <Setter Property="Foreground" Value="Transparent"/>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Path=Text, Source={x:Reference textSource}}" Value="">
+                                                    <Setter Property="Foreground" Value="LightGray"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </TextBox.Style>
+                                </TextBox>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
+
+
+    <Border x:Name="border" BorderBrush="#FFFF00DC" Background="White"
+            BorderThickness="1" >
+
+        <Grid>
+
+            <Grid x:Name="grid_titleBar" Height="84" VerticalAlignment="Top" Background="White">
+                <Label x:Name="label_attachedProcessName" Content="プロセスを選択してください" HorizontalAlignment="Right" Margin="0,58,0,0" VerticalAlignment="Top" Width="718" Foreground="#FF555555" HorizontalContentAlignment="Right"/>
+                <Label x:Name="label2" Content="Artemis" HorizontalAlignment="Left" Margin="10,4,0,0" VerticalAlignment="Top" FontSize="64" FontFamily="Kunstler Script" MouseDown="label2_MouseDown">
+                    <Label.Foreground>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Red" Offset="0"/>
+                            <GradientStop Color="#FF00A2FF" Offset="1"/>
+                            <GradientStop Color="#FE42B130" Offset="0.305"/>
+                            <GradientStop Color="#FEFF05F4" Offset="0.718"/>
+                        </LinearGradientBrush>
+                    </Label.Foreground>
+                </Label>
+            </Grid>
+
+
+            <DockPanel>
+                <Menu x:Name="menu" Height="55" Background="#FF4D4D4D" Margin="0,80,0,332" DockPanel.Dock="Right">
+                    <Menu.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <DockPanel />
+                        </ItemsPanelTemplate>
+                    </Menu.ItemsPanel>
+                    <MenuItem x:Name="menu_selectProcess" Foreground="White" Header="   プロセスを選択" FontSize="21.333" Height="55" Width="201" DockPanel.Dock="Left" Click="menu_selectProcess_Click">
+                        <MenuItem.Icon>
+                            <Image Source="Icons/Process.png" Margin="-4,-8,-25,-10"  />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="menu_tools" Foreground="White" Header="   ツール" FontSize="21.333" Height="55" Width="144" Background="#FF4D4D4D" DockPanel.Dock="Left" MouseEnter="menu_tools_MouseEnter">
+                        <MenuItem.Icon>
+                            <Image Source="Icons/Tools.png" Margin="-4,-8,-25,-10"  />
+                        </MenuItem.Icon>
+                        <MenuItem x:Name="menu_action" Foreground="White" Header="アクション書き換え" FontSize="20.333" Background="#FF4D4D4D" Click="menu_action_Click" IsEnabled="False" />
+                        <MenuItem x:Name="menu_room" Foreground="White" Header="ルーム書き換え" FontSize="20.333" Background="#FF4D4D4D" Click="menu_room_Click" IsEnabled="False"/>
+                    </MenuItem>
+                    <MenuItem x:Name="menu_settings" Foreground="White" Header="   設定" FontSize="21.333" Height="55" Width="160" DockPanel.Dock="Left" Click="menu_settings_Click">
+                        <MenuItem.Icon>
+                            <Image Source="Icons/settings.png" Margin="-4,-8,-25,-10"  />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="menu_exit" Foreground="White" Header="   exit" FontSize="21.333" Height="55" Width="93" DockPanel.Dock="Right" Click="menu_exit_Click">
+                        <MenuItem.Icon>
+                            <Image Source="Icons/power.png" Margin="-4,-8,-25,-10"  />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </Menu>
+
+            </DockPanel>
+
+            <Grid x:Name="grid_home" Margin="0,142,0,0" Background="White" >
+                <TextBox x:Name="textBox_admin" Height="19" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,316,858,0" Foreground="White" SelectionBrush="White" BorderBrush="White" TextChanged="textBox_admin_TextChanged"/>
+            </Grid>
+            <Grid x:Name="grid_attachProcess" Margin="0,142,0,0" Visibility="Hidden" Background="White">
+                <ListBox x:Name="listBox_processes" HorizontalAlignment="Left" Height="258" VerticalAlignment="Top" Width="878" BorderBrush="{x:Null}"/>
+                <Button x:Name="button_processAttach" HorizontalAlignment="Left" Margin="657,278,0,0" VerticalAlignment="Top" Width="201" Height="37" Background="#FF52B0FF" Foreground="White" BorderBrush="#FF34B5FF" Click="button_processAttach_Click" HorizontalContentAlignment="Center" >
+                    <StackPanel  Orientation="Horizontal" Margin="4,2">
+                        <Image x:Name="image" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25"  Width="25" Source="Icons/attach.png"/>
+                        <Label Content=" アタッチ" Foreground="White" />
+                    </StackPanel>
+                </Button>
+                <Label x:Name="label_isAttached" Content="" HorizontalAlignment="Left" Margin="574,289,0,0" VerticalAlignment="Top" Width="78" Foreground="#FF464646"/>
+            </Grid>
+
+            <Grid x:Name="grid_Action" VerticalAlignment="Top" Height="339" Margin="0,142,0,-4" Loaded="grid_Action_Loaded" Background="White" Visibility="Hidden" >
+                <ListBox x:Name="listBox_actionList" HorizontalAlignment="Left" Height="264" VerticalAlignment="Top" Width="558" BorderBrush="White" Margin="0,38,0,0" SelectionChanged="listBox_actionList_SelectionChanged"/>
+                <TextBox x:Name="textBox_searchBox" HorizontalAlignment="Left" Height="38" Style="{StaticResource placeHolder}" TextWrapping="Wrap" VerticalAlignment="Top" Width="558" FontSize="26.667" Foreground="#FF292929" SelectionBrush="#FFFF3131" Tag="名前またはコードを検索" BorderBrush="{x:Null}" TextChanged="textBox_searchBox_TextChanged"/>
+                <TextBox x:Name="textBox_basecode" HorizontalAlignment="Left" Height="23" Style="{StaticResource placeHolder}" Margin="0,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="558" Foreground="#FFFF00D1" SelectionBrush="#FF9B00B4" BorderBrush="Red" Tag="ここにベースコードを入力" TextChanged="textBox_basecode_TextChanged"/>
+                <CheckBox x:Name="checkBox_selectActionList" Content="リスト中のアクションから選ぶ" HorizontalAlignment="Left" Margin="563,311,0,0" VerticalAlignment="Top"/>
+                <GroupBox x:Name="groupBox_debugMenu" Header="デバッグメニュー" HorizontalAlignment="Left" Margin="573,10,0,0" VerticalAlignment="Top" Height="292" Width="295" Foreground="Red" Visibility="Hidden">
+                    <GroupBox.BorderBrush>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF00DCFF" Offset="0"/>
+                            <GradientStop Color="#FF7B00F5" Offset="1"/>
+                        </LinearGradientBrush>
+                    </GroupBox.BorderBrush>
+                    <Grid>
+                        <CheckBox x:Name="checkBox_newSearch" Content="新しく検索する" HorizontalAlignment="Left" Margin="183,245,0,0" VerticalAlignment="Top" IsChecked="True" Click="checkBox_newSearch_Click"/>
+                        <Label x:Name="label" Content="アドレスリスト" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
+                        <ListBox x:Name="listBox_action_debug_addressList" HorizontalAlignment="Left" Height="85" Margin="10,26,0,0" VerticalAlignment="Top" Width="170"/>
+                        <TextBox x:Name="textBox_debug_writeActionCode" HorizontalAlignment="Left" Height="23" Margin="10,116,0,0" Style="{StaticResource placeHolder}" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" Tag="アクションコード"/>
+                        <Button x:Name="button_debug_write" Content="Write" HorizontalAlignment="Left" Margin="208,116,0,0" VerticalAlignment="Top" Width="75" Height="23" Foreground="White" BorderBrush="{x:Null}" Background="#FF00AFD6" Click="button_debug_write_Click"/>
+                        <Label x:Name="label_selectedCodeLength" Content="selected code length : " HorizontalAlignment="Left" Margin="10,155,0,0" VerticalAlignment="Top"/>
+                        <Label x:Name="label_baseCodeLength" Content="base code length : " HorizontalAlignment="Left" Margin="10,181,0,0" VerticalAlignment="Top"/>
+                        <Label x:Name="label_possibleCodeLength" Content="possible code length : " HorizontalAlignment="Left" Margin="10,207,0,0" VerticalAlignment="Top"/>
+                        <Label x:Name="label_actionColunt" Content="action count : " HorizontalAlignment="Left" Height="27" Margin="10,238,0,0" VerticalAlignment="Top">
+                            <Label.Foreground>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FF00743A" Offset="0"/>
+                                    <GradientStop Color="Magenta" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Label.Foreground>
+                        </Label>
+                    </Grid>
+
+                </GroupBox>
+                <CheckBox x:Name="checkBox_enableDebug" Content="EnableDebug" HorizontalAlignment="Left" Margin="774,311,0,0" VerticalAlignment="Top" Click="checkBox_enableDebug_Click"/>
+            </Grid>
+
+
+            <Grid x:Name="grid_Room" Margin="0,142,0,0" Loaded="grid_Room_Loaded" Visibility="Hidden">
+                <ListBox x:Name="listBox_Room" HorizontalAlignment="Left" Height="300" VerticalAlignment="Top" Width="630">
+                    <CheckBox x:Name="BJ_normalToVIP" Content="カジノブラックジャックノーマル -&gt; カジノブラックジャックVIP" Foreground="#FFB900FF" Background="#FF609EE8" BorderBrush="#FF727272" Click="BJ_normalToVIP_Click">
+                        <CheckBox.LayoutTransform>
+                            <ScaleTransform ScaleX="2" ScaleY="2" />
+                        </CheckBox.LayoutTransform>
+                    </CheckBox>
+                    <CheckBox x:Name="roulette_normalToVIP" Content="カジノルーレットノーマル -&gt; カジノルーレットVIP" Foreground="#FFB900FF" Background="#FF609EE8" Click="roulette_normalToVIP_Click">
+                        <CheckBox.LayoutTransform>
+                            <ScaleTransform ScaleX="2" ScaleY="2" />
+                        </CheckBox.LayoutTransform>
+                    </CheckBox>
+                    <CheckBox x:Name="minibaccarat_normalToVIP" Content="カジノブミニバカラノーマル -&gt; カジノミニバカラVIP" Foreground="#FFB900FF" Background="#FF609EE8" BorderBrush="#FF727272" Click="minibaccarat_normalToVIP_Click">
+                        <CheckBox.LayoutTransform>
+                            <ScaleTransform ScaleX="2" ScaleY="2" />
+                        </CheckBox.LayoutTransform>
+                    </CheckBox>
+                </ListBox>
+                <ListBox x:Name="listBox_roomAddressList" HorizontalAlignment="Left" Height="201" Margin="636,39,0,0" VerticalAlignment="Top" Width="232" Foreground="#FF910000" Visibility="Hidden"/>
+                <CheckBox x:Name="checkBox_room_enableDebug" Content="EnableDebug" HorizontalAlignment="Left" Margin="636,285,0,0" VerticalAlignment="Top" FontSize="10.667" Click="checkBox_room_enableDebug_Click">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="2" ScaleY="2" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <Label x:Name="label_room_status" Content="待機" HorizontalAlignment="Left" Margin="10,305,0,0" VerticalAlignment="Top" Width="620" Foreground="#FFE800FF"/>
+                <Label x:Name="label3" Content="BETA版のため不安定" HorizontalAlignment="Left" Margin="636,240,0,0" VerticalAlignment="Top" Foreground="Red" FontSize="14.667"/>
+
+            </Grid>
+            <Grid x:Name="grid_settings" HorizontalAlignment="Left" Height="344" Margin="0,133,0,0" VerticalAlignment="Top" Width="878" Visibility="Hidden">
+                <Button x:Name="button_deleteLicense" Content="ライセンスを破棄" HorizontalAlignment="Left" Margin="675,294,0,0" VerticalAlignment="Top" Width="193" Height="40" Foreground="White" BorderBrush="#FF008BFF" Background="#FF008BFF" Click="button_deleteLicense_Click"/>
+                <Label x:Name="label1" Content="ライセンスを破棄するとArtemisに関する情報がすべて削除されます。" HorizontalAlignment="Left" Margin="539,258,0,0" VerticalAlignment="Top" Height="31" Width="339"/>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

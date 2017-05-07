@@ -1,0 +1,8 @@
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\b\System.Security.4.0.0.0.Fakes.xml
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\b\System.Security.4.0.0.0.Fakes.dll
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\b\System.Security.4.0.0.0.Fakes.pdb
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\b\ja\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\o\f.csprojResolveAssemblyReference.cache
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\o\System.Security.4.0.0.0.Fakes.dll
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\o\System.Security.4.0.0.0.Fakes.pdb

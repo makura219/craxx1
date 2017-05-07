@@ -1,0 +1,45 @@
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\MainWindow.g.cs
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\App.g.cs
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\MainWindow.baml
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\craxx_plus.Properties.Resources.resources
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\craxx_plus.csproj.GenerateResource.Cache
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\craxx_plus.csprojResolveAssemblyReference.cache
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Controls\actionItem.g.cs
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Controls\processListItem.g.cs
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Controls\actionItem.baml
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Controls\processListItem.baml
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Controls\roomItem.g.cs
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Controls\roomItem.baml
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\bin\Debug\Artemis.exe.config
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\bin\Debug\Artemis.exe
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\bin\Debug\Artemis.pdb
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Artemis_MarkupCompile.cache
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Artemis_MarkupCompile.lref
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Artemis.g.resources
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Artemis.exe
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Artemis.pdb
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\bin\Debug\System.Security.4.0.0.0.Fakes.fakesconfig
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\bin\Debug\ja\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\craxx_plus.csprojFakesResolveAssemblyReference.cache
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\fakes.args
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\b\ja\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\b\System.Security.4.0.0.0.Fakes.dll
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\b\System.Security.4.0.0.0.Fakes.fakesconfig
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\b\System.Security.4.0.0.0.Fakes.pdb
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\b\System.Security.4.0.0.0.Fakes.xml
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\f.ah
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\f.ch
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\f.cs
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\f.csproj
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\f.fakes
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\f.fakesconfig
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\f.snk
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\o\f.csproj.FileListAbsolute.txt
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\o\f.csprojResolveAssemblyReference.cache
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\o\System.Security.4.0.0.0.Fakes.dll
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\craxx_plus\obj\Debug\Fakes\ss\o\System.Security.4.0.0.0.Fakes.pdb
+C:\Users\9ketsuki\Source\Repos\craxx1\craxx_plus\bin\Debug\Artemis.exe.config
+C:\Users\9ketsuki\Source\Repos\craxx1\craxx_plus\obj\Debug\Artemis.exe
+C:\Users\9ketsuki\Source\Repos\craxx1\craxx_plus\obj\Debug\Artemis.pdb

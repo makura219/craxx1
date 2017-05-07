@@ -1,0 +1,9 @@
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\MemPigg\bin\Debug\MemPigg.exe.config
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\MemPigg\bin\Debug\MemPigg.exe
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\MemPigg\bin\Debug\MemPigg.pdb
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\MemPigg\obj\Debug\MemPigg.csprojResolveAssemblyReference.cache
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\MemPigg\obj\Debug\MemPigg.Form1.resources
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\MemPigg\obj\Debug\MemPigg.Properties.Resources.resources
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\MemPigg\obj\Debug\MemPigg.csproj.GenerateResource.Cache
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\MemPigg\obj\Debug\MemPigg.exe
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\MemPigg\obj\Debug\MemPigg.pdb

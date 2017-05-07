@@ -1,0 +1,59 @@
+﻿<Window x:Class="dot_pigg.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dot_pigg"
+        mc:Ignorable="d"
+        Title=".pigg" Height="454" Width="812.333"  AllowsTransparency="True"  WindowStyle="None" Foreground="{DynamicResource Border_color}" Background="{x:Null}"
+        ShowActivated="False" ResizeMode="NoResize">
+    <Window.Resources>
+        <SolidColorBrush x:Key="BG_color" Color="#FF1F1C23"/>
+        <SolidColorBrush x:Key="Border_color" Color="#FF7C2B75"/>
+        <SolidColorBrush x:Key="xxx" Color="#FFFF70D2"/>
+        <Color x:Key="Glow_color">#FFFF70D2</Color>
+        
+    </Window.Resources>
+
+    <Border BorderBrush="{DynamicResource Border_color}"
+            BorderThickness="1" Margin="10">
+        <Border.Effect>
+            <DropShadowEffect ShadowDepth="0" BlurRadius="8" 
+                              Color="{DynamicResource Glow_color}" />
+        </Border.Effect>
+        <Grid>
+            <Border Grid.Row="1" Background="{DynamicResource BG_color}" >
+                <Grid>
+                    <Label x:Name="label_title" Content=".pigg" HorizontalAlignment="Left" Margin="61,20,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18.667" Background="{x:Null}" FontFamily="Meiryo"/>
+                    <Image x:Name="image_logo" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="33" Source="marshmello_50_white.png" Margin="23,21,0,0"/>
+
+                    <Menu DockPanel.Dock="Top" Margin="564,35,0,374" Background="{DynamicResource BG_color}" Foreground="#FFDC9226">
+                        <MenuItem Header="ActionPanel(_A)">
+                        </MenuItem>
+                        <MenuItem Header="Upgrade(_U)">
+                        </MenuItem>
+                        <MenuItem Header="Info(_I)">
+                        </MenuItem>
+                    </Menu>
+                    <Grid HorizontalAlignment="Left" Height="261" Margin="42,81,0,0" VerticalAlignment="Top" Width="516" Background="#FF413744">
+                        <ListBox x:Name="listBox_action" HorizontalAlignment="Left" Height="227" Margin="0,34,0,0" VerticalAlignment="Top" Width="516" Background="{DynamicResource BG_color}" BorderBrush="{x:Null}">
+                        </ListBox>
+                        <Menu x:Name="menu" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Background="#FF25212B" Margin="1,1,0,0" Width="514" IsEnabled="False" BorderBrush="#FF413744">
+                            <Label Height="34" Width="43" Content="Type" Foreground="#FF5F5163" FontSize="13.333"/>
+                            <Label Height="34" Width="103" Content="Name" Foreground="#FF5F5163" FontSize="13.333"/>
+                        </Menu>
+                    </Grid>
+                    <Label x:Name="label" Content="ActionPanel" HorizontalAlignment="Left" Margin="42,55,0,0" VerticalAlignment="Top" Foreground="#FFDC9226"/>
+                    <Grid x:Name="grid_btn_inport" HorizontalAlignment="Left" Height="20" Margin="488,56,0,0" VerticalAlignment="Top" Width="71" Cursor="Hand">
+                        <Image x:Name="image" Height="18" Margin="0,0,52,2" Source="marshmello.png"/>
+                        <Label x:Name="label1" Content="Import" Margin="19,-5,-13,-6" Foreground="#FFDC9226" Background="{x:Null}"/>
+                    </Grid>
+
+
+
+
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
+</Window>

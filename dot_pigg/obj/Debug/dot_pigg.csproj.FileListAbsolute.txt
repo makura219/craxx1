@@ -1,0 +1,16 @@
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\dot_pigg\bin\Debug\dot_pigg.exe.config
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\dot_pigg\bin\Debug\dot_pigg.exe
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\dot_pigg\bin\Debug\dot_pigg.pdb
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\dot_pigg\obj\Debug\dot_pigg.csprojResolveAssemblyReference.cache
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\dot_pigg\obj\Debug\MainWindow.g.cs
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\dot_pigg\obj\Debug\App.g.cs
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\dot_pigg\obj\Debug\dot_pigg_MarkupCompile.cache
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\dot_pigg\obj\Debug\dot_pigg_MarkupCompile.lref
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\dot_pigg\obj\Debug\MainWindow.baml
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\dot_pigg\obj\Debug\dot_pigg.g.resources
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\dot_pigg\obj\Debug\dot_pigg.Properties.Resources.resources
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\dot_pigg\obj\Debug\dot_pigg.csproj.GenerateResource.Cache
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\dot_pigg\obj\Debug\dot_pigg.exe
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\dot_pigg\obj\Debug\dot_pigg.pdb
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\dot_pigg\obj\Debug\actionItem.g.cs
+C:\Users\9ketsuki\Documents\Visual Studio 2015\Projects\craxx\dot_pigg\obj\Debug\actionItem.baml
